@@ -1,0 +1,1 @@
+let jupiter = document.getElementById("jupiter");

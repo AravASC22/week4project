@@ -67,6 +67,9 @@ function draw() {
             }
         }
     }
+    else {
+        
+    }
 }
 class bullet {
    constructor(x, y, r, g, b, size, fired) {

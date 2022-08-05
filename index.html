@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
+    <head>
        <meta charset="UTF-8">
-       <title>My First p5 Project</title>
-   </head>
+       <title>EPIC SPACE GAME</title>
+       <script src="background.js"></script>
+       <link rel="stylesheet" href="style.css">
+    </head>
  
-   <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script>
-    <script src="sketch.js"></script>
-   </body>
+    <body>
+    <marquee behavior="scroll" direction = "left">
+        <img id="jupiter" src="images/jupiter.png">
+    </marquee>
+    <br>
+    <br>
+    <br>
+    <div id="main">
+        <h1>
+            EPIC SPACE GAME
+        </h1>
+        <p>
+            HELLO THERE SPACE CITIZEN!
+            <br>
+            THE WORLD IS IN DANGER!
+            <br>
+            We here at Totally Legit Space Defense&trade; need YOUR help!!!
+            <br>
+            EVIL ALIENS have attacked HUMANITY so we must exterminate ALL of them!
+            <br>
+            Now, FLY FORTH BRAVE SOLDIER!!!
+            <br>
+            Use WASD to dodge their bullets.
+            <br>
+            We believe in you soldier! And you are 100% NOT cannon fodder we couldn't care less for!
+        </p>
+        <button onclick = "location.href='game.html'">
+            Game
+        </button>   
+    </div>
+    </body>
 </html>
